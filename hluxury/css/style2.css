@@ -1,0 +1,103 @@
+h1{
+  font-size: 100px;
+
+
+}
+.hero-unit {
+    padding: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.video-background{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-background{
+    width: 100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio: 16/9){
+  .video-background{
+    width:auto;
+    height: 100%;
+
+  }
+}
+
+#searchBar {
+  border: 1px solid #000000;
+  border-right:none;
+  font-size: 13px;
+  padding: 10px;
+  outline: none;
+  width: 135px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius:10px;
+  -moz-border-radius-topleft:10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+
+}
+
+#searchBtn {
+  border: 1px solid #000000;
+  font-size: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background:#C1C1C1;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius:10px;
+  -moz-border-radius-toprright:10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+#searchBtn:hover {
+  background: #f6e049;
+}
+body{
+  font-family: arial;
+}
+h3{
+  margin: 20px 0px 0px 0px;
+  padding:0;
+
+
+}
+p{
+  margin:0;
+  padding:0;
+  color: white;
+}
+.table-auto{
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+
+}
